@@ -1,0 +1,16 @@
+<div class="autocomplete-container">
+    <label *if="this.label" for="{{ this.id }}" [trans]="this.label"></label>
+
+    <input *if="this.name" [name]="this.name" [value]="this.inputValue" type="hidden" />
+
+    <input type="text" [required]="this.required" (input)="this.search($el)" id="{{ this.id }}" [value]="this.displayedText" class="autocomplete-input" [placeholder]="this.placeholder" />
+
+    <fa *if="! Is.empty(this.itemsList)" icon="times close-icon" title="close" (click)="this.itemsList = []"></fa>
+
+    <div class="autocomplete-results card">
+        <li *if="this.isSearching" trans="searching"></li>
+        <li *for="let item of this.itemsList" (click)="this.selectItem(item)">
+            <static [html]="item.label"></static>
+        </li>
+    </div>
+</div>
