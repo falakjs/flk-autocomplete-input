@@ -1,0 +1,23 @@
+{
+  "name": "flk-autocomplete-input",
+  "version": "1.0.2",
+  "description": "Autocomplete input for Falak framework",
+  "keywords": [
+    "autocomplete",
+    "input",
+    "flk"
+  ],
+  "dependencies": {
+    "flk-cache": "0.1.7",
+    "flk-http": "0.1.40",
+    "flk-endpoint": "0.1.31"
+  },
+  "author": {
+    "email": "hassanzohdy@gmail.com",
+    "name": "Hasan Zohdy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/falakjs/flk-autocomplete-input"
+  }
+}
