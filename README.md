@@ -36,6 +36,17 @@ Set the autocomplete list items that will be used for search.
 
 > This will be required if there is no `route` attribute passed to the component.   
 
+The schema of any item in the passed `items` or any ajax request should be like this:
+
+```json
+[
+    {
+        "text": "Displayed text",
+        "value": "Selected value"
+    }
+]
+```
+
 ## cache
 
 **name**: `cache` | `[cache]`
