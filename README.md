@@ -179,7 +179,7 @@ Usually this event is used with api responses.
 
 `hello-world.component.html`
 ```html
-<flk-autocomplete-input name="countries" route="/countries" (map)="this.mapCountry(e)"/></flk-autocomplete-input>
+<flk-autocomplete-input name="countries" route="/countries" (map)="return this.mapCountry(e)"/></flk-autocomplete-input>
 ```
 
 `hello-world.component.js`
