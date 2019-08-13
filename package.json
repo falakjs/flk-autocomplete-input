@@ -1,6 +1,6 @@
 {
   "name": "flk-autocomplete-input",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Autocomplete input for Falak framework",
   "main": "dist/flk-autocomplete-input.component.js",
   "keywords": [
