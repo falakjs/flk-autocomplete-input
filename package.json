@@ -9,9 +9,9 @@
     "flk"
   ],
   "dependencies": {
-    "flk-cache": "0.1.7",
-    "flk-http": "0.1.40",
-    "flk-endpoint": "0.1.31"
+    "flk-cache": "^0.1.10",
+    "flk-http": "^0.1.42",
+    "flk-endpoint": "^0.1.33"
   },
   "author": {
     "email": "hassanzohdy@gmail.com",
